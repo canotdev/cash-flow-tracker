@@ -7,7 +7,7 @@ public class Income extends Transaction {
 	private String source;
 	
 	public Income(int id, String description, double value, LocalDate date, String source) {
-		super (id, description, value, date);
+		super(id, description, value, date);
 		this.source = source;
 	}
 
